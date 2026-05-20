@@ -29,9 +29,9 @@ function Contact() {
         <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="space-y-6">
           {[
             { icon: MapPin, label: "Visit", value: "224 Raymond Boulevard, New York" },
-            { icon: Phone, label: "Call", value: "+1 444 123 4567" },
-            { icon: Mail, label: "Email", value: "hello@thecafe.com" },
-            { icon: Clock, label: "Hours", value: "Tue – Sun, 9:00 AM – 10:00 PM" },
+            { icon: Phone, label: "Call", value: "+91 98765 43210" },
+            { icon: Mail, label: "Email", value: "hello@thecafe.in" },
+            { icon: Clock, label: "Hours", value: "Tue – Sun, 8:00 AM – 11:00 PM" },
           ].map((c) => (
             <div key={c.label} className="flex gap-4 p-6 rounded-2xl bg-secondary/40 hover:bg-secondary transition-colors">
               <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center flex-shrink-0">
