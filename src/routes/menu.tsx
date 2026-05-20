@@ -14,20 +14,20 @@ export const Route = createFileRoute("/menu")({
 
 const menu = {
   Coffee: [
-    { name: "Caffe Latte", desc: "Fresh brewed coffee and steamed milk", price: "$2.95", hot: true },
-    { name: "Caffe Americano", desc: "Espresso shots and light layer of crema", price: "$3.06" },
-    { name: "Cappuccino", desc: "Espresso, well-frothed layer of foam", price: "$4.00" },
-    { name: "Iced Caramel Latte", desc: "Espresso, milk, ice and caramel sauce", price: "$4.75" },
-    { name: "Caramel Mocchiato", desc: "Espresso, vanilla-flavored syrup and milk", price: "$2.54" },
-    { name: "Espresso Macchiato", desc: "Rich espresso with milk and foam", price: "$2.98" },
+    { name: "Filter Coffee", desc: "Authentic South Indian degree filter coffee", price: "₹90", hot: true },
+    { name: "Masala Chai", desc: "Spiced Indian tea with ginger and cardamom", price: "₹70" },
+    { name: "Caffe Latte", desc: "Fresh brewed espresso and steamed milk", price: "₹220" },
+    { name: "Cappuccino", desc: "Espresso with a well-frothed layer of foam", price: "₹240" },
+    { name: "Iced Caramel Latte", desc: "Espresso, milk, ice and caramel sauce", price: "₹280" },
+    { name: "Espresso Macchiato", desc: "Rich espresso with milk and foam", price: "₹180" },
   ],
   Specialty: [
-    { name: "Iced Caffe Mocha", desc: "Espresso, bittersweet mocha sauce, milk and ice", price: "$2.60" },
-    { name: "Vanilla Latte", desc: "Espresso, milk with vanilla and cream", price: "$3.65" },
-    { name: "White Chocolate Mocha", desc: "Espresso, white chocolate, milk and cream", price: "$2.70", hot: true },
-    { name: "Iced Smoked Latte", desc: "Espresso, ice, with smoked butterscotch", price: "$3.85" },
-    { name: "Iced Gingerbread Latte", desc: "Espresso, milk, ice and gingerbread flavor", price: "$3.90" },
-    { name: "Frappuccino", desc: "Espresso and smoothed layer of foam", price: "$3.00" },
+    { name: "Iced Caffe Mocha", desc: "Espresso, bittersweet mocha sauce, milk and ice", price: "₹260" },
+    { name: "Vanilla Latte", desc: "Espresso, milk with vanilla and cream", price: "₹250" },
+    { name: "White Chocolate Mocha", desc: "Espresso, white chocolate, milk and cream", price: "₹290", hot: true },
+    { name: "Cold Coffee with Ice Cream", desc: "Classic Indian cafe favourite with vanilla scoop", price: "₹260" },
+    { name: "Rose Cardamom Latte", desc: "Espresso, milk, rose syrup and cardamom", price: "₹270" },
+    { name: "Frappuccino", desc: "Blended iced coffee with cream", price: "₹300" },
   ],
 };
 
