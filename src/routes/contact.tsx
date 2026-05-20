@@ -28,7 +28,7 @@ function Contact() {
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12">
         <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="space-y-6">
           {[
-            { icon: MapPin, label: "Visit", value: "224 Raymond Boulevard, New York" },
+            { icon: MapPin, label: "Visit", value: "42, MG Road, Indiranagar, Bengaluru 560038" },
             { icon: Phone, label: "Call", value: "+91 98765 43210" },
             { icon: Mail, label: "Email", value: "hello@thecafe.in" },
             { icon: Clock, label: "Hours", value: "Tue – Sun, 8:00 AM – 11:00 PM" },
