@@ -27,9 +27,9 @@ export function Footer() {
         <div>
           <h4 className="font-display text-lg mb-4 text-primary">Contact</h4>
           <ul className="text-sm space-y-3 text-cream/80">
-            <li className="flex items-center gap-2"><MapPin className="w-4 h-4" /> 224 Raymond Blvd, NY</li>
-            <li className="flex items-center gap-2"><Phone className="w-4 h-4" /> +1 444 123 4567</li>
-            <li className="flex items-center gap-2"><Mail className="w-4 h-4" /> hello@thecafe.com</li>
+            <li className="flex items-center gap-2"><MapPin className="w-4 h-4" /><span>42, MG Road, Indiranagar, Bengaluru 560038</span></li>
+            <li className="flex items-center gap-2"><Phone className="w-4 h-4" /><span>+91 98765 43210</span></li>
+            <li className="flex items-center gap-2"><Mail className="w-4 h-4" /><span>hello@thecafe.in</span></li>
           </ul>
         </div>
 
