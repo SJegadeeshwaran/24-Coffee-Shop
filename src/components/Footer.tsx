@@ -45,7 +45,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-cream/10 py-6 text-center text-xs text-cream/50">
-        © 2026 The Cafe. All rights reserved.
+        © 2026 The Cafe. All rights reserved .
       </div>
     </footer>
   );
